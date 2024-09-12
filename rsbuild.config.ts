@@ -27,7 +27,10 @@ export default defineConfig(async ({ env, command, envMode }) => {
             port
         },
         output: {
-            polyfill: "usage"
+            polyfill: "usage",
+            distPath: {
+                root: "build"
+            }
         }
     } satisfies RsbuildConfig
 })
