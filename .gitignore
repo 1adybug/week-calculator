@@ -1,0 +1,24 @@
+# Local
+.DS_Store
+*.local
+*.log*
+
+# Dist
+node_modules
+dist/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+package-lock.json
+yarn.lock
+dist
+build
+pnpm-lock.yaml
+yarn-error.log
+test.js
+test.mjs
+test.ts
+test

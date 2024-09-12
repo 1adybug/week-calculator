@@ -1,0 +1,30 @@
+{
+    "name": "week-calculator",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "rsbuild dev --open",
+        "build": "rsbuild build",
+        "preview": "rsbuild preview"
+    },
+    "dependencies": {
+        "@ionic/react": "^8.3.0",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@rsbuild/core": "^1.0.1",
+        "@rsbuild/plugin-react": "^1.0.1",
+        "@rsbuild/plugin-svgr": "^1.0.1",
+        "@types/node": "^22.5.4",
+        "@types/react": "^18.3.5",
+        "@types/react-dom": "^18.3.0",
+        "autoprefixer": "^10.4.20",
+        "get-port-please": "^3.1.2",
+        "postcss": "^8.4.45",
+        "prettier": "^3.3.3",
+        "prettier-plugin-tailwindcss": "^0.6.6",
+        "tailwindcss": "^3.4.10",
+        "typescript": "^5.5.2"
+    }
+}
